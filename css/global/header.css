@@ -15,7 +15,7 @@
 .header-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 55px;
 }
 
 .header-menu a {

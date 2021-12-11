@@ -8,14 +8,20 @@
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
 }
-
+p {
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 200px;
 }
 
 .introducao img {
-  width: 100%;
+  width:100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
@@ -48,5 +54,12 @@
   .introducao img {
     height: 300px;
     width: 100%;
+  }
+}
+@media (max-width: 1.200px) {
+  .introducao , .container img {
+    height: 500px;
+    width: 100%;
+    
   }
 }
