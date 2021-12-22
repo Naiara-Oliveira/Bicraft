@@ -20,6 +20,10 @@
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+@import "./home/contato.css";
+@import "./home/loja.css";
+@import "./utilidades/formularios.css";
+
 
 @import "./seguros/seguros.css";
 @import "./seguros/perguntas.css";
