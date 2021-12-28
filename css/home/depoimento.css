@@ -1,3 +1,4 @@
+
 .depoimento{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -14,7 +15,8 @@
 .depoimento-conteudo{
 padding: 40px 40px 80px 80px ;
 align-self: end;
-
+background:url("../../img/dec/bottom-right-p.svg")
+  no-repeat bottom 40px right 40px;
 }
 .depoimento-conteudo p{
   max-width: 32ch;
@@ -68,5 +70,10 @@ content: "”";
       .depoimento-conteudo{
         align-self: center;
     }
+  }
+  @media(min-width:1200px){
+.depoimento-img{
+  max-height: 520px;
+}
   }
 
