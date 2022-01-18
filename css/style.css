@@ -7,6 +7,8 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/animacao.css";
+
 
 
 /* Bicicletas */
@@ -27,8 +29,7 @@
 
 @import "./seguros/seguros.css";
 @import "./seguros/perguntas.css";
-@import "./seguros/vantagens.css";
-
+@import "./home/vantagens.css";
 @import "./termos/termos.css";
 
 

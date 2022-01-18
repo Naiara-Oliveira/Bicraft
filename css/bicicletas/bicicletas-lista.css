@@ -11,15 +11,15 @@
   background: url("../../img/dec/top-right.svg")no-repeat top 40px right  20px;
 }
 
-.bicicletas-imagem {
+.bicicleta-imagens {
   display: grid;
 }
 
-.bicicletas-imagem img {
+.bicicleta-imagens img {
   grid-area: 1/1;
 }
 
-.bicicletas-imagem span {
+.bicicleta-imagens span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
